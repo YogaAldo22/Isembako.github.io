@@ -1,0 +1,49 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header{
+    background-color: silver;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.logo-pop{
+    width: 160px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.container h3{
+    margin-top: 10px;
+    color: #a80000;
+}
+
+.article {
+    padding: 1rem;
+}
+.article a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem;
+}
+.article .card{
+    padding: 0.5rem;
+}
+.article .card:hover{
+    box-shadow: 0.1px 0.1px 2.5px 2.5px rgba(0,0,0,0.5);
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.footer {
+    padding: 1rem;
+    background-color: silver;
+}

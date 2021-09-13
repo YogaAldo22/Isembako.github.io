@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="bg-kns">
+  <div class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/LOGO sim.png" alt="">
+      </a>
+    </div>
+    <div class="head-kat">
+      <a href="kategori.html">
+        <p>Kategori</p>
+      </a>
+    </div>
+    <div class="cari">
+      <form action="">
+        <input class="search" type="text" placeholder="  Kamu butuh apa?">
+        <input class="button" type="button" value="Cari">
+      </form>
+    </div>
+    <div class="icon-right">
+      <img src="img/shopping-cart.png" alt="keranjang">
+      <img src="img/bell.png" alt="notif">
+    </div>
+    <div class="account">
+      <a href="login.html">Login</a>
+      <a href="daftar.html">Daftar</a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="box-heading">
+      <h1>Kritik & Saran</h1>
+    </div>
+    <div class="box-add">
+      <input id="add-todo" type="text" placeholder="Masukan kritik dan saran anda" />
+      <button id="add-btn" class="btn btn-todo">+ Add</button>
+    </div>
+    <div class="box-table">
+      <table cellspacing="5" border="2.5">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Kritik & Saran</th>
+          </tr>
+        </thead>
+        <tbody id="t-body"></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="footer-kns">
+    <p>Copyright &copy; 2021 | <span>Made by Yoga Aldo</span> </p>
+  </div>
+</div>
+  <script src="js-dom/js/jquery-3.6.0.min.js"></script>
+  <script src="js-dom/js/script.js"></script>
+
+</body>
+
+</html>
